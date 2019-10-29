@@ -1,0 +1,55 @@
+<html lang="en" dir="ltr">
+  <head>
+    <title>Fortune Teller</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Test Your Fortune Here!</h1>
+      <form id='form-group'>
+        <div class="past">
+          <p>Check what has happened to you in the past:</p>
+          <input type="checkbox" name="past" value="3">Hit by a car <br>
+          <input type="checkbox" name="past" value="0">Won the lottery <br>
+          <input type="checkbox" name="past" value="2">Broken a bone <br>
+          <input type="checkbox" name="past" value="1">Experienced true love <br>
+          <input type="checkbox" name="past" value="3">Experienced true heartbreak <br>
+        </div>
+
+        <div class="present">
+          <br>
+          <p>What is going on in your life now?:</p>
+          <input type="checkbox" name="present" value="3">Working hard <br>
+          <input type="checkbox" name="present" value="2">Moving to a new place <br>
+          <input type="checkbox" name="present" value="4">Homeless <br>
+          <input type="checkbox" name="present" value="1">In a relationship <br>
+          <input type="checkbox" name="present" value="2">Experiencing health issues <br>
+        </div>
+
+        <div class="future">
+          <br>
+          <p>Check what you want for the future:</p>
+          <input type="checkbox" name="future" value="1">Be a homeowner <br>
+          <input type="checkbox" name="future" value="2">Travel the world <br>
+          <input type="checkbox" name="future" value="1">Have children <br>
+          <input type="checkbox" name="future" value="1">Meet "The One" <br>
+          <input type="checkbox" name="future" value="6">Die peacefully <br>
+        </div>
+
+        <button type="submit" name="button">What is your fate?</button>
+      </form>
+      <div class="positiveResponse">
+        <p>Based on your responses, you will have a prosperous future with many golden statues of yourself.</p>
+      </div>
+      <div class="neutralResponse">
+        <p>Based on your response, your life now is pretty much what you'll have in the future...</p>
+      </div>
+      <div class="negativeResponse">
+        <p>Based on your response, you will experience an excruciating future. YOU ARE DOOMED.</p>
+      </div>
+    </div>
+  </body>
+</html>
